@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1558291747556.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "928860919",
+    "id" : "A7091237",
+    "lastKnownWriteTime" : 1558292261,
+    "last_content_update" : -2147483648,
+    "path" : "~/GitHub(assignments)/final/final_paper.Rmd",
+    "project_path" : "final_paper.Rmd",
+    "properties" : {
+        "cursorPosition" : "44,22",
+        "scrollLine" : "32",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
