@@ -1,0 +1,10 @@
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+\includegraphics[height=300px]{final_paper_files/figure-latex/unnamed-chunk-1-1} \caption{ }\label{fig:unnamed-chunk-1}
+\end{figure*}
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+\includegraphics[height=300px]{final_paper_files/figure-latex/unnamed-chunk-2-1} \caption{ }\label{fig:unnamed-chunk-2}
+\end{figure*}
