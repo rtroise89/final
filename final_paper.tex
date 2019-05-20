@@ -139,16 +139,16 @@ coordinate-equivalent from Cartesian. From there, any user can choose to
 plot the trajectory and perform various calculations. The function
 \enquote{TrajDistance} for examples, determines the shortest distance
 travelled based on the start and end point of a path. The demonstration
-utilizes a custom function, built by the original author of Trajr McLean
-and Volponi (2018), to show what the general output looks like when
-calculating the variables \enquote{average speed}, \enquote{sinuosity},
-and \enquote{straightness}. The speed is simply calculated as position
-over time. Sinuosity can be thought as how much curvature contributes to
-the total path relative to a shortest line connecting the two
-\enquote{start} and \enquote{end} points. The greater the number, the
-more bending of the path there is. The index of straightness is inferred
-by an \enquote{Emax} value. Straighter paths hold higher values, and the
-range is allowed to approach infinity.
+utilizes a custom function, built by the original author of Trajr,
+McLean and Volponi (2018), to show what the general output looks like
+when calculating the variables \enquote{average speed},
+\enquote{sinuosity}, and \enquote{straightness}. The speed is simply
+calculated as position over time. Sinuosity can be thought as how much
+curvature contributes to the total path relative to a shortest line
+connecting the two \enquote{start} and \enquote{end} points. The greater
+the number, the more bending of the path there is. The index of
+straightness is inferred by an \enquote{Emax} value. Straighter paths
+hold higher values, and the range is allowed to approach infinity.
 
 \section{Methods}\label{methods}
 
@@ -176,11 +176,12 @@ No participants were used in this demonstration.
 
 \subsection{Procedure}\label{procedure}
 
-We first compiled two hypothetical trajectories in R-studio, a data
-frame with a set of six x-coordinates (in units of meters),
-y-coordinates, and time steps (unitless). The \enquote{TrajFromCoords}
-function, allows for the conversion of a data frame into a trajectory
-object. We then plotted the two objects to visualize the paths.
+We first compiled two hypothetical trajectories in R-studio (Figure 1
+and 2, Appendix), a data frame with a set of six x-coordinates (in units
+of meters), y-coordinates, and time steps (unitless). The
+\enquote{TrajFromCoords} function, allows for the conversion of a data
+frame into a trajectory object. We then plotted the two objects to
+visualize the paths.
 
 The function \enquote{characteriseTrajectory} takes a single trajectory
 object and computes the average speed and standard deviation (that some
@@ -193,7 +194,7 @@ individually.
 
 \subsection{Data analysis}\label{data-analysis}
 
-We used R (Version 3.5.0; R Core Team, 2018) and the R-packages
+We used R (Version 3.5.2; R Core Team, 2018) and the R-packages
 \emph{papaja} (Version 0.1.0.9842; Aust \& Barth, 2018), and
 \emph{xtable} (Version 1.8.4; Dahl, Scott, Roosen, Magnusson, \&
 Swinton, 2019) for all our analyses.
@@ -236,18 +237,15 @@ Trajectory2 & Parameter\\
 Based on the outputs of the \enquote{characteriseTrajectory}, The first
 and second trajectories (Figure 1 and Figure 2) differ in their
 sinuosity and Emax due to the nature of the paths themselves. The
-bending behavior, is what causes the second trajectory, in Figure 2
-(Appendix) to possess a higher turning value(sinuosity) and lower Emax
-(straightness) than in the first trajectory, in Figure 1.
+bending behavior, is what causes the second trajectory, in Figure 2, to
+possess a higher turning value(sinuosity) and lower Emax (straightness)
+than in the first trajectory, in Figure 1. There is also a difference in
+speed parameters, but bending behavior is what can be visually and
+numerically ascertained.
 
 \newpage
 
 \section{References}\label{references}
-
-\begin{verbatim}
-## Warning in readLines(file): incomplete final line found on 'r-
-## references.bib'
-\end{verbatim}
 
 \begingroup
 \setlength{\parindent}{-0.5in} \setlength{\leftskip}{0.5in}
